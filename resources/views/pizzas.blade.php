@@ -6,9 +6,6 @@
         <div class="title m-b-md">
             Pizzas List
         </div>
-        
-        <p>{{$name}} {{$age}}</p>
-
         @foreach ($pizzas as $pizza )
         <div>
         {{$loop->index}} {{$pizza['type']}}- {{$pizza['base']}}
