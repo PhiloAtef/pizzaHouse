@@ -23,6 +23,8 @@
             <option value="thin & crispy">thin & crispy</option>
             <option value="thick">thick</option>
         </select>
+        <label for="price">price :</label>
+        <input type="number" name="price" id="price">
         <input type="submit" value="Order Pizza">
     </form>
 </div>
