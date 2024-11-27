@@ -11,6 +11,10 @@
         {{$pizza->name}} - {{$pizza->type}} - {{$pizza->base}}
         </div>
         @endforeach
+        <br>
+        <a href="/">Go to Home</a>
+        <br>
+        <a href="/pizzas/create">Add a New Pizza</a>
     </div>
 </div>
 @endsection
