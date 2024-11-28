@@ -21,8 +21,8 @@
             The North's Best Pizzas
         </div>
         <p class="success">{{session('success')}}</p>
-        <a href="/pizzas/create">Order a Pizza</a> <br>
-        <a href="/pizzas">See your Pizzas</a>
+        <a href="/pizzas/create" class="btn btn-primary mt-3 bg-dark border-0">Order a Pizza</a> <br>
+        <a href="/pizzas" class="btn btn-primary mt-3 bg-dark border-0">See your Pizzas</a>
     </div>
 </div>
 @endsection

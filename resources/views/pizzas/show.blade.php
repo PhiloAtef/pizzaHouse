@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+@extends('layouts.app')
 
 @section('content')
 <div class="wrapper pizza-details">
@@ -16,6 +16,7 @@
     @method('DELETE')
     <button>Delete Order</button>
     </form>
+   <a href="/pizzas" class="btn btn-primary mt-3 bg-dark border-0" >back to all pizzas</a>
 </div>
-<a href="/pizzas" class="back-to-all-pizza ">back to all pizzas</a>
+
 @endsection
