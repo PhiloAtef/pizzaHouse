@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+@extends('layouts.app')
 
 @section('content')
 <div class="wrapper create-pizza">
@@ -33,7 +33,7 @@
             <input type="checkbox" name="toppings[]" value="olives">Olives<br/>
 
         </fieldset>
-        <input type="submit" value="Order Pizza"> <a href="/pizzas">Back</a>
+        <input type="submit" value="Order Pizza"> <a href="/pizzas" class="btn btn-primary bg-dark border-0">Back</a>
     </form>
 </div>
 @endsection
